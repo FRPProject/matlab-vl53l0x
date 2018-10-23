@@ -1,0 +1,7 @@
+To install it on Matlab go to the software packages directory (e.g., C:\ProgramData\MATLAB\SupportPackages\R2017a_1\toolbox\matlab\hardware\supportpackages) and just copy paste it into: "+arduinoioaddons". Copy *.h file into "+arduinoioaddons/src". 
+Then execute the following commands:
+clear classes
+rehash toolboxcache
+lib = listArduinoLibraries()
+You should see the newly installed add-on
+Now setup your board again to upload the add-on on it
